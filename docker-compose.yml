@@ -1,0 +1,6 @@
+version: '3'
+services:
+  app:
+    image: playwright-pdf-svc
+    ports:
+      - "3000:3000"
